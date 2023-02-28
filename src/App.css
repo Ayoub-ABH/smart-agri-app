@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+/*------------------uperbar---------------*/
+.UperBar {
+    background: #02060e;
+    display: flex;
+    color: #6cbe03;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+    padding: 3px;
+}
+.UperBar .logo{
+    color: #9a9a9a;
+}
+.UperBar .phone{
+    color: white;
+    font-weight: bold;
+}
+.UperBar .email{
+    color: white;
+    font-weight: bold;
+}
+
+.social-media span{
+    margin-left: 10px;
+}
+.UperBar .fav-logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/*------------------------navbar-------------------------*/
+.NavBar{
+    background-color: #40dd40db;
+}
+.navs{
+    display: flex;
+    justify-content: space-around;
+}

@@ -2,7 +2,38 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div>NavBar</div>
+    <div>
+
+    <div className="UperBar">
+      <div className="fav-logo">
+        Smart Agri
+      </div>
+      <div>
+        <div className="logo">Phone Number</div> 
+        <div className="phone">0616876447</div> 
+      </div>
+      <div>
+        <div className="logo">Email Address</div> 
+        <div className="email">smartAgri@gmail.com</div>  
+      </div>
+      <div className='social-media'>
+        <span>fb</span>
+        <span>insta</span>
+        <span>tiktok</span>
+      </div>
+      
+    </div>
+
+
+    <div className="NavBar">
+      <ul className='navs'>
+        <li>home</li>
+        <li>process</li>
+        <li>about</li>
+        <li>contact</li>
+      </ul>
+    </div>
+    </div>
   )
 }
 
