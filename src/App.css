@@ -4,16 +4,11 @@
 }
 /*------------------uperbar---------------*/
 .UperBar {
-    background: #02060e;
+    background-color: #15b315db;
     display: flex;
-    color: #6cbe03;
     align-items: center;
     justify-content: space-around;
-    height: 20vh;
-    padding: 3px;
-}
-.UperBar .logo{
-    color: #9a9a9a;
+    height: 5vh;
 }
 .UperBar .phone{
     color: white;
@@ -27,17 +22,49 @@
 .social-media span{
     margin-left: 10px;
 }
-.UperBar .fav-logo{
-    font-weight: bold;
-    font-size: 30px;
-}
+
 
 
 /*------------------------navbar-------------------------*/
 .NavBar{
-    background-color: #40dd40db;
+    background: #02060e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+
+}
+.NavBar .fav-logo{
+    font-weight: bold;
+    font-size: 30px;
+    color:#15b315db;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.fav-logo-img{
+    background-image: url("/public/assets/logo.png");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
 }
 .navs{
     display: flex;
-    justify-content: space-around;
+}
+
+.navs li{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+
+
+/*------------------------Carousal-------------------------*/
+.carousal{
+    height: 84vh;
+    background-image: url("/public/assets/carousal.jpg");
+    background-size: cover;
 }

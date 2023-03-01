@@ -5,15 +5,10 @@ const NavBar = () => {
     <div>
 
     <div className="UperBar">
-      <div className="fav-logo">
-        Smart Agri
-      </div>
-      <div>
-        <div className="logo">Phone Number</div> 
+      <div> 
         <div className="phone">0616876447</div> 
       </div>
       <div>
-        <div className="logo">Email Address</div> 
         <div className="email">smartAgri@gmail.com</div>  
       </div>
       <div className='social-media'>
@@ -26,6 +21,10 @@ const NavBar = () => {
 
 
     <div className="NavBar">
+      <div className="fav-logo">
+        <div className='fav-logo-img'></div> 
+        <div className="fav-logo-txt">Smart Agri</div> 
+      </div>
       <ul className='navs'>
         <li>home</li>
         <li>process</li>
