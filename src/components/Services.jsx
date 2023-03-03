@@ -20,7 +20,7 @@ const Services = () => {
             </div>
 
             <div className="card">
-                <img src="/assets/smart-farming-smart-agriculture-iot.jpg" alt="service" />
+                <img src="/assets/logo.png" alt="service" />
                 <div className="body">
                     <h4 className='title'>rossage automatique</h4>
                     <p className='text'> 

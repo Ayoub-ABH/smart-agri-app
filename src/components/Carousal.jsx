@@ -9,11 +9,10 @@ const Carousal = () => {
       <div className="image"></div>
       <div className="body">
         <div className="text">
-        Votre Facon De Minimiser La Perte D'eau
+        Le futur de l'arrosage est intelligent. Rejoignez-nous dans notre mission de préserver l'eau
         </div>
         <div className="btns">
-          <Link to="/">Shop Now</Link>
-          <Link to="/">Read More</Link>
+          <Link to="/"><i class="fa-solid fa-cart-shopping"></i> Shop Now</Link>
         </div>
       </div>
     </div>

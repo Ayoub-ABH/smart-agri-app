@@ -6,16 +6,19 @@ const NavBar = () => {
     <div>
 
     <div className="UperBar">
-      <div> 
-        <div className="phone"><i class="fa-solid fa-phone"></i>0616876447</div> 
-      </div>
-      <div>
-        <div className="email"><i class="fa-solid fa-envelope"></i>smartAgri@gmail.com</div>  
+      <div className='contacts'> 
+        <span className="phone">
+          <i class="fa-solid fa-phone"></i>  0616876447
+        </span> 
+        <span className="email">
+          <i class="fa-solid fa-envelope"></i>  smart.agri@gmail.com
+        </span>  
       </div>
       <div className='social-media'>
-        <span>fb</span>
-        <span>insta</span>
-        <span>tiktok</span>
+        <Link to="/"><i class="fa-brands fa-facebook-f"></i></Link>
+        <Link to="/"><i class="fa-brands fa-instagram"></i></Link>
+        <Link to="/"><i class="fa-brands fa-linkedin-in"></i></Link>
+        <Link to="/"><i class="fa-brands fa-tiktok"></i></Link>
       </div>
       
     </div>
@@ -27,8 +30,8 @@ const NavBar = () => {
         <div className="fav-logo-txt">Smart Agri</div> 
       </div>
       <div className='navs'>
-        <Link to="/">home</Link>
-        <Link to="/">process</Link>
+        <Link to="/">acceuil</Link>
+        <Link to="/">processus</Link>
         <Link to="/">about</Link>
         <Link to="/">contact</Link>
       </div>

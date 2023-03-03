@@ -5,22 +5,28 @@
 /*------------------uperbar---------------*/
 .UperBar {
     background-color: #15b315db;
+    padding: 0px 130px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 5vh;
 }
-.UperBar .phone{
-    color: gainsboro;
-    font-weight: bold;
-}
-.UperBar .email{
-    color: gainsboro;
-    font-weight: bold;
+
+.UperBar .contacts{
+    color: white;
+    font-size: 14px;
 }
 
-.social-media span{
-    margin-left: 10px;
+.UperBar .contacts .phone{
+    margin-right: 50px;
+}
+
+
+
+.social-media > a{
+    margin-left: 22px;
+    font-size: 18px;
+    color: white;
 }
 
 
@@ -36,7 +42,7 @@
 }
 .NavBar .fav-logo{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
     color: #11f711db;
     display: flex;
     align-items: center;
@@ -45,8 +51,8 @@
 
 .fav-logo-img{
     background-image: url("/assets/logo.png");
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     background-size: cover;
 }
 .navs{
@@ -55,9 +61,9 @@
 
 .navs a{
     list-style: none;
-    color: gray;
+    color: #e5e0e0;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-right: 40px;
     text-decoration: none;
 }
@@ -98,31 +104,31 @@
 .carousal .body .text{
     font-weight: bold;
     color: #ffffffc4;
-    font-size: 60px;
-    text-transform: capitalize;
+    font-size: 43px;
+    /* text-transform: capitalize; */
 }
 .carousal .body .btns{
     margin-top: 40px;
 }
 
-.carousal .body .btns :first-child{
-    padding: 8px;
+.carousal .body .btns a{
+    padding: 10px;
     color: aliceblue;
     font-size: 20px;
-    margin-right: 25px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-decoration: none;
-    background: linear-gradient(120deg, #6cbe03 40%, #35a135 80%);
+    background-color: #35a135;
 }
 
-.carousal .body .btns :nth-child(2){
-    padding: 8px;
-    color: aliceblue;
+.carousal .body .btns a:hover{
+    padding: 10px;
+    color: #35a135;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-decoration: none;
-    background: linear-gradient(120deg, #279b2b 40%, #35a135 80%);
+    background-color: white;
 }
+
 
 /*-------------------description-------------*/
 .description{
