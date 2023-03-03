@@ -9,7 +9,7 @@ const Carousal = () => {
       <div className="image"></div>
       <div className="body">
         <div className="text">
-            your way to minimize water lost
+        Votre Facon De Minimiser La Perte D'eau
         </div>
         <div className="btns">
           <Link to="/">Shop Now</Link>

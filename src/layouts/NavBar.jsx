@@ -7,10 +7,10 @@ const NavBar = () => {
 
     <div className="UperBar">
       <div> 
-        <div className="phone">0616876447</div> 
+        <div className="phone"><i class="fa-solid fa-phone"></i>0616876447</div> 
       </div>
       <div>
-        <div className="email">smartAgri@gmail.com</div>  
+        <div className="email"><i class="fa-solid fa-envelope"></i>smartAgri@gmail.com</div>  
       </div>
       <div className='social-media'>
         <span>fb</span>
