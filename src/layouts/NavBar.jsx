@@ -13,6 +13,9 @@ const NavBar = () => {
         <span className="email">
           <i class="fa-solid fa-envelope"></i>  smart.agri@gmail.com
         </span>  
+        <span className="destination">
+          <i class="fa-solid fa-location-dot"></i> Khouribga - Maroc
+        </span> 
       </div>
       <div className='social-media'>
         <Link to="/"><i class="fa-brands fa-facebook-f"></i></Link>

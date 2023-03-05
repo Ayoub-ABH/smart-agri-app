@@ -18,12 +18,16 @@
 }
 
 .UperBar .contacts .phone{
-    margin-right: 50px;
+    margin-right: 40px;
+}
+
+.UperBar .contacts .email{
+    margin-right: 40px;
 }
 
 
 
-.social-media > a{
+.UperBar .social-media > a{
     margin-left: 22px;
     font-size: 18px;
     color: white;
@@ -112,19 +116,20 @@
 }
 
 .carousal .body .btns a{
-    padding: 10px;
+    padding: 13px;
     color: aliceblue;
-    font-size: 20px;
-    border-radius: 20px;
+    font-size: 18px;
+    border-radius: 22px;
     text-decoration: none;
     background-color: #35a135;
+    transition: all 0.3s ease-out 0s;
 }
 
 .carousal .body .btns a:hover{
-    padding: 10px;
+    padding: 13px;
     color: #35a135;
-    font-size: 20px;
-    border-radius: 20px;
+    font-size: 18px;
+    border-radius: 22px;
     text-decoration: none;
     background-color: white;
 }
@@ -152,9 +157,13 @@
 
 /*-------------------les services-------------*/
 .services{
-    padding: 60px 130px;
+    padding: 60px  130px;
     text-align: center;
     background-color: #eaeef9;
+    background-image: url("/public/assets/service_background.png");
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 150px;
 }
 
 .services > .title{
@@ -180,16 +189,12 @@
     text-align: center;
     margin: 10px 0px;
     width: 300px;
-    border: 3px solid white;
+    border: 4px solid white;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .cards .card:hover{
-    background: white;
-    border-radius: 23px;
-    text-align: center;
-    margin: 10px 0px;
-    width: 300px;
-    border: 3px solid rgba(10, 197, 10, 0.61);
+    border: 4px solid rgba(10, 197, 10, 0.61);
 }
 
 .card > img{
@@ -214,4 +219,106 @@
 .card .foot{
     margin: 20px 0px;
     display: block;
+}
+
+
+/*-------------footer------------*/
+
+.footer{
+    padding: 60px 100px 0px 100px;
+    background-color: #161616;
+}
+.footer > hr{
+    color: #bbbbbb;
+}
+
+/*------------upper foot-----------*/
+
+.footer .upper-foot{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.upper-foot .title{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.upper-foot .body{
+    color: #bbbbbb;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.f-about-projet{
+    width: 35%;
+    margin: 0px 5px;
+}
+
+.f-about-projet .social-media > a{
+    margin-right: 22px;
+    font-size: 17px;
+    color: #bbbbbb;
+    border: 2px solid #2f2f2f;
+    padding: 9px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    transition: all 0.3s ease-out 0s;
+    display: inline-block;
+}
+.f-about-projet .social-media > a:hover{
+    color: white;
+    border: 2px solid #6cbe03;
+    background-color: #6cbe03;
+}
+
+.body > a{
+    display: block;
+    color: #bbbbbb;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-out 0s;
+}
+.body > a:hover{
+    color: #6cbe03;
+}
+
+.f-quick-link{
+    width: 13%;
+    margin: 0px 5px;
+}
+
+.f-services{
+    width: 12%;
+    margin: 0px 5px;
+}
+
+.f-contact{
+    margin: 0px 5px;
+    width: 26%;
+}
+.f-contact  a i{
+    color: #6cbe03;
+    padding-right: 7px;
+}
+
+/*---------down-foot-----*/
+.down-foot{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #111;
+    margin-top: 57px;
+    padding: 30px 0px !important;
+}
+.down-foot a{
+    text-decoration: none;
+    color: #727272;
+    transition: all 0.3s ease-out 0s;
+}
+.down-foot a:hover{
+    color: #6cbe03;
 }
