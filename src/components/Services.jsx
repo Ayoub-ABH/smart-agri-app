@@ -20,7 +20,7 @@ const Services = () => {
             </div>
 
             <div className="card">
-                <img src="/assets/logo.png" alt="service" />
+                <img src="/assets/maintenance.jpg" alt="service" />
                 <div className="body">
                     <h4 className='title'>rossage automatique</h4>
                     <p className='text'> 
@@ -34,7 +34,7 @@ const Services = () => {
             </div>
 
             <div className="card">
-                <img src="/assets/logo.png" alt="service" />
+                <img src="/assets/rossage.jpg" alt="service" />
                 <div className="body">
                     <h4 className='title'>rossage automatique</h4>
                     <p className='text'> 

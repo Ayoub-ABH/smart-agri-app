@@ -17,12 +17,12 @@ const NavBar = () => {
           <i class="fa-solid fa-location-dot"></i> Khouribga - Maroc
         </span> 
       </div>
-      <div className='social-media'>
+      {/* <div className='social-media'>
         <Link to="/"><i class="fa-brands fa-facebook-f"></i></Link>
         <Link to="/"><i class="fa-brands fa-instagram"></i></Link>
         <Link to="/"><i class="fa-brands fa-linkedin-in"></i></Link>
         <Link to="/"><i class="fa-brands fa-tiktok"></i></Link>
-      </div>
+      </div> */}
       
     </div>
 
